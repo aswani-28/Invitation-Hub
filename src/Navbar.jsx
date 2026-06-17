@@ -6,14 +6,15 @@ import Preview from "./preview"
 import Downloads from "./downloads"
 import "./Navbar.css"
 function Navbar(){
+    const base=import.meta.env.BASE_URL;
     return(
-        <BrowserRouter>
+        <BrowserRouter basename="invito-Hub">
         <div className="links">
-        <Link to="/" id="link"><img src="homeblack.png"/>Home</Link>
-        <Link to="/template" id="link"><img src="templateblack.png"/>Template</Link>
-        <Link to="/create"id="link" ><img src="createblack.png"/>Create</Link>
-        <Link to="/preview" id="link"><img src="priviewblack.png"/>Preview</Link>
-        <Link to="/downloads"id="link" ><img src="downblack.png"/>Dowloads</Link>
+        <Link to="/" id="link"><img src="/invito-Hub/homeblack.png"/>Home</Link>
+        <Link to="/template" id="link"><img src="/invito-Hub/templateblack.png"/>Template</Link>
+        <Link to="/create"id="link" ><img src="/invito-Hub/createblack.png"/>Create</Link>
+        <Link to="/preview" id="link"><img src="/invito-Hub/priviewblack.png"/>Preview</Link>
+        <Link to="/downloads"id="link" ><img src="/invito-Hub/downblack.png"/>Dowloads</Link>
         </div>
         <Routes>
             <Route exact path="/" element={<Home/>}></Route>
