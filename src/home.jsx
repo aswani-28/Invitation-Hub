@@ -85,7 +85,7 @@ function Home(){
                 <div className="icondiv"> 
                     <Link to="/preview" id="linkk">
                     <img src="/Invitation-Hub/priviewblack.png"/>
-                    <h5>Preview Invitation  </h5>
+                    <h5>Preview </h5>
                     </Link>
                 </div>
                 <div className="icondiv"> 
