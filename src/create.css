@@ -89,8 +89,9 @@
         width:73%;
         font-size:13px;
     }
-    .a,.c{
-        font-size:17px !important;
+    .divv .a,.divv .c{
+        padding:7px;
+        font-size:15px !important;
     }
 
 

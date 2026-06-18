@@ -36,9 +36,9 @@ function Home(){
                 <h4>Templates</h4>
                 <h5>Kids birthday</h5>
                 <h5>Pricess Theme</h5>
-                <h5>Modern birthdays</h5>
+                <h5>birthdays</h5>
                 <h5>Floral Design</h5>
-                <h5>Elegant Invitation</h5>
+                <h5>Invitation</h5>
                 
             </div>
 
