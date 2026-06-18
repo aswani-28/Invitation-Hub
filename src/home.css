@@ -183,7 +183,7 @@
         left:7px;
         border-radius: 10px;
         width:97%;
-        top:75%;
+        top:68%;
     }
     .second{
         gap:20px;
@@ -194,17 +194,17 @@
         width:60%;
     }
     #linkk h5{
-        font-size:14px !important;
+        font-size:13px !important;
     }
     .icondi h4,.third h4{
-        font-size: 16px;
+        font-size: 14px;
     }
     .second .icondiv img{
         width:25px;
         height: 25px;
     }
     .second .icondiv,.second .icondi{
-        width:140px;
+        width:146px;
     }
     .third{
         padding:20px;
@@ -215,7 +215,7 @@
        flex-direction: column;
        align-items: center;
        justify-content: center;
-       height:360px; 
+       height:400px; 
     }
     .four p{
         font-size:10px;

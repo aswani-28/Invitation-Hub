@@ -24,9 +24,7 @@
 @media(max-width:768px){
    
     .popup{
-        height:90vh;
-        overflow-y:hidden;
-
+        height:96vh;
     }
     .box{
         width:80%;
