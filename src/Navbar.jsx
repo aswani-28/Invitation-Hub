@@ -7,13 +7,13 @@ import Downloads from "./downloads"
 import "./Navbar.css"
 function Navbar(){
     return(
-        <BrowserRouter>
+        <BrowserRouter basename="Invitation-Hub">
         <div className="links">
-        <Link to="/" id="link"><img src="/homeblack.png"/>Home</Link>
-        <Link to="/template" id="link"><img src="/templateblack.png"/>Template</Link>
-        <Link to="/create"id="link" ><img src="/createblack.png"/>Create</Link>
-        <Link to="/preview" id="link"><img src="/priviewblack.png"/>Preview</Link>
-        <Link to="/downloads"id="link" ><img src="/downblack.png"/>Dowloads</Link>
+        <Link to="/" id="link"><img src="/Invitation-Hub/homeblack.png"/>Home</Link>
+        <Link to="/template" id="link"><img src="/Invitation-Hub/templateblack.png"/>Template</Link>
+        <Link to="/create"id="link" ><img src="/Invitation-Hub/createblack.png"/>Create</Link>
+        <Link to="/preview" id="link"><img src="/Invitation-Hub/priviewblack.png"/>Preview</Link>
+        <Link to="/downloads"id="link" ><img src="/Invitation-Hub/downblack.png"/>Dowloads</Link>
         </div>
         <Routes>
             <Route exact path="/" element={<Home/>}></Route>

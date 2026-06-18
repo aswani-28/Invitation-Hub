@@ -12,23 +12,23 @@ function Home(){
             <div className="div21">
                 <h4>Categories</h4>
                 <div className="icondi"> 
-                    <img src="/birthday.png"/>
+                    <img src="/Invitation-Hub/birthday.png"/>
                     <h5>Birthday</h5>
                 </div>
                 <div className="icondi"> 
-                    <img src="/wedding.png"/>
+                    <img src="/Invitation-Hub/wedding.png"/>
                     <h5>Wedding</h5>
                 </div>
                 <div className="icondi"> 
-                    <img src="/babyshower.png"/>
+                    <img src="/Invitation-Hub/babyshower.png"/>
                     <h5>Baby Shower</h5>
                 </div>
                 <div className="icondi"> 
-                    <img src="/graduation.png"/>
+                    <img src="/Invitation-Hub/graduation.png"/>
                     <h5>Graduation</h5>
                 </div>
                 <div className="icondi"> 
-                    <img src="/party.png"/>
+                    <img src="/Invitation-Hub/party.png"/>
                      <h5>Party</h5>
                 </div>
             </div>
@@ -58,13 +58,13 @@ function Home(){
             <div className="second">
                 
                 <div className="icondi"> 
-                    <img src="/howcreate.png"/>
+                    <img src="/Invitation-Hub/howcreate.png"/>
                     <h4>How It Works</h4>
                 </div>
                  
                 <div className="icondiv"> 
                     <Link to="/template" id="linkk">
-                    <img src="/choose.png"/>
+                    <img src="/Invitation-Hub/choose.png"/>
                     
                     <h5>Choose Template  </h5>
                     </Link>
@@ -72,25 +72,25 @@ function Home(){
                
                 <div className="icondiv"> 
                     <Link to="/create" id="linkk">
-                    <img src="/adddata.png"/>
+                    <img src="/Invitation-Hub/adddata.png"/>
                     <h5>Add Details </h5>
                     </Link>
                 </div>
                 <div className="icondiv" > 
                     <Link to="/create" id="linkk">
-                    <img src="/upload.png"/>
+                    <img src="/Invitation-Hub/upload.png"/>
                     <h5>Upload Photos  </h5>
                     </Link>
                 </div>
                 <div className="icondiv"> 
                     <Link to="/preview" id="linkk">
-                    <img src="/priviewblack.png"/>
+                    <img src="/Invitation-Hub/priviewblack.png"/>
                     <h5>Preview Invitation  </h5>
                     </Link>
                 </div>
                 <div className="icondiv"> 
                     <Link to="/downloads"  id="linkk">
-                    <img src="/downblack.png"/>
+                    <img src="/Invitation-Hub/downblack.png"/>
                     <h5>Download  </h5>
                     </Link>
                 </div>
