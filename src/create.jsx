@@ -115,10 +115,16 @@ function Create(){
         //     setcustom(reader.result);
         //     settemplate("custom");
         // };
+        
         if(file){
+            if(file.size>10*1024*1024){
+                alert("pleease select an image smaller than 10MB")
+            }
+            else{
             const imageUrl=URL.createObjectURL(file);
              setcustom(imageUrl);
              settemplate("custom");
+            }
 
         }
         // reader.readAsDataURL(file);
