@@ -84,7 +84,8 @@ function Create(){
     dispatch(removetemp())
     
     }
-    const handleClick=()=>{
+    const handleClick=(e)=>{
+        e.preventDefault();
         handlesubmit();
         emptyfields();
         navigate("/preview")
@@ -109,12 +110,18 @@ function Create(){
     console.log("log edit",edit)
     const handleimage=(e)=>{
         const file=e.target.files[0];
-        const reader=new FileReader();
-        reader.onloadend=()=>{
-            setcustom(reader.result);
-            settemplate("custom");
-        };
-        reader.readAsDataURL(file);
+        // const reader=new FileReader();
+        // reader.onloadend=()=>{
+        //     setcustom(reader.result);
+        //     settemplate("custom");
+        // };
+        if(file){
+            const imageUrl=URL.createObjectURL(file);
+             setcustom(imageUrl);
+             settemplate("custom");
+
+        }
+        // reader.readAsDataURL(file);
     }
     return(
         <div className="create">
